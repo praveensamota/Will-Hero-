@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="418.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.willhero.GameController">
+   <children>
+      <ImageView fitHeight="418.0" fitWidth="701.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Gamebg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="20.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Islands7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="251.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Islands4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="473.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Islands2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myplayer" fitHeight="39.0" fitWidth="49.0" layoutX="77.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Helmet4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Orc1" fitHeight="39.0" fitWidth="51.0" layoutX="315.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Orc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Orc2" fitHeight="39.0" fitWidth="45.0" layoutX="378.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Orc1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="87.0" layoutX="-7.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/menu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="58.0" layoutX="36.0" layoutY="362.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/WeaponAxe.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="91.0" layoutY="367.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/WeaponShuriken.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="33.0" layoutX="650.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Coin.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="321.0" layoutY="14.0" prefHeight="31.0" prefWidth="60.0" text="0" textFill="#403737fa">
+         <font>
+            <Font name="Open Sans Semibold" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="8.0" mnemonicParsing="false" onAction="#onMenuClick" opacity="0.0" prefHeight="31.0" prefWidth="42.0" text="Button" />
+      <Label fx:id="savelabel" alignment="CENTER" layoutX="280.0" layoutY="87.0" opacity="0.0" prefHeight="53.0" prefWidth="142.0" text="Game Progress Saved" />
+   </children>
+</AnchorPane>

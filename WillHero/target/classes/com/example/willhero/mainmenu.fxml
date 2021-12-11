@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorpane" prefHeight="384.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.willhero.HelloController">
+   <children>
+      <ImageView fitHeight="447.0" fitWidth="745.0">
+         <image>
+            <Image url="@images/163-1639081_new-version-of-the-8bit-day-pixel-art.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="start" fitHeight="115.0" fitWidth="115.0" layoutX="315.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="409.0" fitWidth="361.0" layoutX="204.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/title.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="115.0" layoutX="625.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/music.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="115.0" layoutX="630.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/setting.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="115.0" layoutX="630.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/cross.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="logoutbutton" layoutX="663.0" layoutY="39.0" mnemonicParsing="false" onAction="#logout" opacity="0.0" prefHeight="37.0" prefWidth="48.0" text="Cross" />
+      <Button fx:id="startbutton" layoutX="315.0" layoutY="367.0" mnemonicParsing="false" onAction="#onStartClick" opacity="0.0" prefHeight="55.0" prefWidth="115.0" text="Button" />
+   </children>
+</AnchorPane>
